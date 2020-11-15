@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row stage">
+    <div class="col-sm-3" style='width: 10rem;'>
+      <form name="form" novalidate [formGroup]="toggleForm">
+        <div class="form-group">
+          <div class="switch-toggle switch-3 switch-candy">
+            <input id="on" value="on" type="radio" checked="" formControlName="toggle" />
+            <label for="on" onclick="">ON</label>
+
+            <input id="na" value="Inter" type="radio" checked="checked" formControlName="toggle" />
+            <label for="na" onclick="">N/A</label>
+
+            <input id="off" value="off" type="radio" formControlName="toggle" />
+            <label for="off" onclick="">OFF</label>
+
+            <a></a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
